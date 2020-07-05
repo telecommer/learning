@@ -1,8 +1,5 @@
 #!/usr/bin/env python
-
-import requests
-import json
-
+import json, requests
 def dna_authentication_func():
     #DNA get authentication token
     url = "https://sandboxdnac.cisco.com/dna/system/api/v1/auth/token"
