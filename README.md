@@ -1,0 +1,2 @@
+# telecommer
+teszt/learning
