@@ -2,10 +2,10 @@ from os import system, name
 import datetime
 
 
-y = "2022-01-01 00:00:00.000001"
+y = "2022-01-01 00:00:02.000000"
 z = "2022-01-01 00:00:00.000000"
 x = str(datetime.datetime.now())
-while x > y:
+while x < y:
     x = str(datetime.datetime.now())
     system('clear')
     if x > z:
